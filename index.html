@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <title>Conference</title>
+</head>
+
+<body>
+    <div class="slideShow"></div>
+    <div class="header">
+        <div class="container">
+            <nav class="menu">
+                <div class="menu__logo">
+                    Seven<span> Fest</span>
+                </div>
+                <ul class="menu__list">
+                    <li class="menu__item active"><a class="menu__link" href="#">Home</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Speakers</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Schedule</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Clients</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Contacts</a></li>
+                </ul>
+                <div class="menu__burger">
+                    <span class="menu__burger-top"></span>
+                    <span class="menu__burger-middle menu__burger-one"></span>
+                    <span class="menu__burger-middle menu__burger-two"></span>
+                    <span class="menu__burger-bottom"></span>
+                </div>
+            </nav>
+        </div>
+    </div>
+    </div>
+    <div class="swiper page">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide pageHome section" id="pageHome">
+                <div class="container">
+                    <div class="pageHome__info">
+                        <!-- <div class="container"></div> -->
+                        <h1 class="pageHome__title">Developer <span>Conference 2022</span></h1>
+                        <div class="pageHome__local">August 21-24, 2022. Paris, Italy</div>
+                        <div class="pageHome__date">
+
+                            <div class="pageHome__date-item">
+                                <div class="pageHome__days">00</div>
+                                <p class="pageHome__textDate">days</p>
+                            </div>
+                            <div class="pageHome__date-item">
+                                <div class="pageHome__hours">00</div>
+                                <p class="pageHome__textDate">hours</p>
+                            </div>
+                            <div class="pageHome__date-item">
+                                <div class="pageHome__minutes">00</div>
+                                <p class="pageHome__textDate">minutes</p>
+                            </div>
+                            <div class="pageHome__date-item">
+                                <div class="pageHome__seconds">00</div>
+                                <p class="pageHome__textDate">seconds</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide pageAbout section" id="pageAbout">
+                <div class="container">
+                    <h2 class="pageAbout__title" data-swiper-parallax="600">
+                        Fun<span> Facts</span>
+                    </h2>
+                    <div class="pageAbout__inner" data-swiper-parallax="-600">
+                        <div class="pageAbout__img" style="background-image:url(images/about.jpg)">
+                            <!-- <img src="images/about.jpg" alt="aboutImg"> -->
+                        </div>
+                        <div class="pageAbout__info">
+                            <h3 class="pageAbout__subtitle">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia
+                            </h3>
+                            <ul class="pageAbout__list">
+                                <li class="pageAbout__item">
+                                    <div class="pageAbout__icon">
+                                        <img src="images/icons/guestInformation1.png" alt="">
+                                    </div>
+
+                                    <div class="pageAbout__number speakers" data-speakers='30'>
+                                        30
+                                    </div>
+                                    <div class="pageAbout__text">
+                                        Speakers
+                                    </div>
+                                </li>
+                                <li class="pageAbout__item">
+                                    <div class="pageAbout__icon">
+                                        <img src="images/icons/guestInformation2.png" alt="">
+                                    </div>
+
+                                    <div class="pageAbout__number sponsor" data-sponsor='200'>
+                                        200
+                                    </div>
+                                    <div class="pageAbout__text">
+                                        Sponsor
+                                    </div>
+                                </li>
+                                <li class="pageAbout__item">
+                                    <div class="pageAbout__icon">
+                                        <img src="images/icons/guestInformation3.png" alt="">
+                                    </div>
+
+                                    <div class="pageAbout__number totalSeats" data-totalseats='2500'>
+                                        2,500
+                                    </div>
+                                    <div class="pageAbout__text">
+                                        Total Seats
+                                    </div>
+                                </li>
+                                <li class="pageAbout__item">
+                                    <div class="pageAbout__icon">
+                                        <img src="images/icons/guestInformation4.png" alt="">
+                                    </div>
+
+                                    <div class="pageAbout__number topics" data-topics='40'>
+                                        40
+                                    </div>
+                                    <div class="pageAbout__text">
+                                        Topics
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide pageSpeakers section" id="pageSpeakers">
+                <div class="container">
+                    <h2 class="pageSpeakers__title" data-swiper-parallax="600">
+                        Our <span>Speakers</span>
+                    </h2>
+                    <div class="pageSpeakers__speakers" data-swiper-parallax="-600">
+                        <ul class="pageSpeakers__list">
+                            <li class="pageSpeakers__item">
+                                <div class="pageSpeakers__speaker">
+                                    <div class="pageSpeakers__img"
+                                        style="background-image:url(images/speakers/speaker1.jpg)">
+                                        <!-- <img src="images/speakers/speaker1.jpg" alt=""> -->
+                                    </div>
+
+                                    <div class="pageSpeakers__author">Jackie Spears</div>
+                                    <div class="pageSpeakers__profession">Entrepreneur</div>
+                                </div>
+                            </li>
+                            <li class="pageSpeakers__item">
+                                <div class="pageSpeakers__speaker">
+                                    <div class="pageSpeakers__img"
+                                        style="background-image:url(images/speakers/speaker2.jpg)">
+                                        <!-- <img src="images/speakers/speaker2.jpg" alt="">  -->
+                                    </div>
+
+                                    <div class="pageSpeakers__author">John Adams</div>
+                                    <div class="pageSpeakers__profession">Web Developer</div>
+                                </div>
+                            </li>
+                            <li class="pageSpeakers__item">
+                                <div class="pageSpeakers__speaker">
+                                    <div class="pageSpeakers__img"
+                                        style="background-image:url(images/speakers/speaker3.jpg)">
+                                        <!-- <img src="images/speakers/speaker3.jpg" alt="">  -->
+                                    </div>
+
+                                    <div class="pageSpeakers__author">Paul George</div>
+                                    <div class="pageSpeakers__profession">Web Developer</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide pageSchedule section">
+                <div class="container">
+                    <div class="pageSchedule__inner">
+                        <h2 class="pageSchedule__title" data-swiper-parallax="600">
+                            Event <span>Schedule</span>
+                        </h2>
+                        <div class="pageSchedule__tabs">
+                            <ul class="presentation">
+                                <li class="presentation__day">
+                                    Day 01 <span>21 July 2022</span>
+                                </li>
+                                <li class="presentation__day">
+                                    Day 02 <span>22 July 2022</span>
+                                </li>
+                                <li class="presentation__day">
+                                    Day 03 <span>23 July 2022</span>
+                                </li>
+                                <li class="presentation__day">
+                                    Day 04 <span>24 July 2022</span>
+                                </li>
+                            </ul>
+                            <div class="pageSchedule__people">
+                                <ul class="peoplePresentation day01" style="opacity:1">
+                                    <li class="peoplePresentation__person">
+                                        <div class="peoplePresentation__img-block">
+                                            <img src="images/persons/person_1.jpg" alt="person"
+                                                class="peoplePresentation__img">
+                                        </div>
+                                        <div class="peoplePresentation__info">
+                                            <div class="peoplePresentation__time">08: - 10:00</div>
+                                            <h3 class="peoplePresentation__title">Introduction to Wordpress 5.0</h3>
+                                            <p class="peoplePresentation__text">A small river named Duden flows by their
+                                                place and supplies it with the necessary regelialia. It is a
+                                                paradisematic
+                                                country, in which roasted parts of sentences fly into your mouth.</p>
+                                            <div class="peoplePresentation__author">
+                                                — <a href="#">Brett Morgan</a><span> Founder of Wordpress</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="peoplePresentation__person">
+                                        <div class="peoplePresentation__img-block">
+                                            <img src="images/persons/person_2.jpg" alt="person"
+                                                class="peoplePresentation__img">
+                                        </div>
+                                        <div class="peoplePresentation__info">
+                                            <div class="peoplePresentation__time">08: - 10:00</div>
+                                            <div class="peoplePresentation__title">Introduction to Wordpress 5.0</div>
+                                            <p class="peoplePresentation__text">A small river named Duden flows by their
+                                                place and supplies it with the necessary regelialia. It is a
+                                                paradisematic
+                                                country, in which roasted parts of sentences fly into your mouth.</p>
+                                            <div class="peoplePresentation__author">
+                                                — <a href="#">Brett Morgan</a><span> Founder of Wordpress</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="peoplePresentation__person">
+                                        <div class="peoplePresentation__img-block">
+                                            <img src="images/persons/person_3.jpg" alt="person"
+                                                class="peoplePresentation__img">
+                                        </div>
+                                        <div class="peoplePresentation__info">
+                                            <div class="peoplePresentation__time">08: - 10:00</div>
+                                            <div class="peoplePresentation__title">Introduction to Wordpress 5.0</div>
+                                            <p class="peoplePresentation__text">A small river named Duden flows by their
+                                                place and supplies it with the necessary regelialia. It is a
+                                                paradisematic
+                                                country, in which roasted parts of sentences fly into your mouth.</p>
+                                            <div class="peoplePresentation__author">
+                                                — <a href="#">Brett Morgan</a><span> Founder of Wordpress</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <ul class="peoplePresentation day02" >
+                                    <li class="peoplePresentation__person">
+                                        <div class="peoplePresentation__img-block">
+                                            <img src="images/persons/person_2.jpg" alt="person"
+                                                class="peoplePresentation__img">
+                                        </div>
+                                        <div class="peoplePresentation__info">
+                                            <div class="peoplePresentation__time">08: - 10:00</div>
+                                            <h3 class="peoplePresentation__title">Introduction to Wordpress 5.0</h3>
+                                            <p class="peoplePresentation__text">A small river named Duden flows by their
+                                                place and supplies it with the necessary regelialia. It is a
+                                                paradisematic
+                                                country, in which roasted parts of sentences fly into your mouth.</p>
+                                            <div class="peoplePresentation__author">
+                                                — <a href="#">Brett Morgan</a><span> Founder of Wordpress</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="peoplePresentation__person">
+                                        <div class="peoplePresentation__img-block">
+                                            <img src="images/persons/person_3.jpg" alt="person"
+                                                class="peoplePresentation__img">
+                                        </div>
+                                        <div class="peoplePresentation__info">
+                                            <div class="peoplePresentation__time">08: - 10:00</div>
+                                            <div class="peoplePresentation__title">Introduction to Wordpress 5.0</div>
+                                            <p class="peoplePresentation__text">A small river named Duden flows by their
+                                                place and supplies it with the necessary regelialia. It is a
+                                                paradisematic
+                                                country, in which roasted parts of sentences fly into your mouth.</p>
+                                            <div class="peoplePresentation__author">
+                                                — <a href="#">Brett Morgan</a><span> Founder of Wordpress</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="peoplePresentation__person">
+                                        <div class="peoplePresentation__img-block">
+                                            <img src="images/persons/person_1.jpg" alt="person"
+                                                class="peoplePresentation__img">
+                                        </div>
+                                        <div class="peoplePresentation__info">
+                                            <div class="peoplePresentation__time">08: - 10:00</div>
+                                            <div class="peoplePresentation__title">Introduction to Wordpress 5.0</div>
+                                            <p class="peoplePresentation__text">A small river named Duden flows by their
+                                                place and supplies it with the necessary regelialia. It is a
+                                                paradisematic
+                                                country, in which roasted parts of sentences fly into your mouth.</p>
+                                            <div class="peoplePresentation__author">
+                                                — <a href="#">Brett Morgan</a><span> Founder of Wordpress</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <ul class="peoplePresentation day03" >
+                                    <li class="peoplePresentation__person">
+                                        <div class="peoplePresentation__img-block">
+                                            <img src="images/persons/person_1.jpg" alt="person"
+                                                class="peoplePresentation__img">
+                                        </div>
+                                        <div class="peoplePresentation__info">
+                                            <div class="peoplePresentation__time">08: - 10:00</div>
+                                            <h3 class="peoplePresentation__title">Introduction to Wordpress 5.0</h3>
+                                            <p class="peoplePresentation__text">A small river named Duden flows by their
+                                                place and supplies it with the necessary regelialia. It is a
+                                                paradisematic
+                                                country, in which roasted parts of sentences fly into your mouth.</p>
+                                            <div class="peoplePresentation__author">
+                                                — <a href="#">Brett Morgan</a><span> Founder of Wordpress</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="peoplePresentation__person">
+                                        <div class="peoplePresentation__img-block">
+                                            <img src="images/persons/person_2.jpg" alt="person"
+                                                class="peoplePresentation__img">
+                                        </div>
+                                        <div class="peoplePresentation__info">
+                                            <div class="peoplePresentation__time">08: - 10:00</div>
+                                            <div class="peoplePresentation__title">Introduction to Wordpress 5.0</div>
+                                            <p class="peoplePresentation__text">A small river named Duden flows by their
+                                                place and supplies it with the necessary regelialia. It is a
+                                                paradisematic
+                                                country, in which roasted parts of sentences fly into your mouth.</p>
+                                            <div class="peoplePresentation__author">
+                                                — <a href="#">Brett Morgan</a><span> Founder of Wordpress</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="peoplePresentation__person">
+                                        <div class="peoplePresentation__img-block">
+                                            <img src="images/persons/person_3.jpg" alt="person"
+                                                class="peoplePresentation__img">
+                                        </div>
+                                        <div class="peoplePresentation__info">
+                                            <div class="peoplePresentation__time">08: - 10:00</div>
+                                            <div class="peoplePresentation__title">Introduction to Wordpress 5.0</div>
+                                            <p class="peoplePresentation__text">A small river named Duden flows by their
+                                                place and supplies it with the necessary regelialia. It is a
+                                                paradisematic
+                                                country, in which roasted parts of sentences fly into your mouth.</p>
+                                            <div class="peoplePresentation__author">
+                                                — <a href="#">Brett Morgan</a><span> Founder of Wordpress</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <ul class="peoplePresentation day04" >
+                                    <li class="peoplePresentation__person">
+                                        <div class="peoplePresentation__img-block">
+                                            <img src="images/persons/person_3.jpg" alt="person"
+                                                class="peoplePresentation__img">
+                                        </div>
+                                        <div class="peoplePresentation__info">
+                                            <div class="peoplePresentation__time">08: - 10:00</div>
+                                            <h3 class="peoplePresentation__title">Introduction to Wordpress 5.0</h3>
+                                            <p class="peoplePresentation__text">A small river named Duden flows by their
+                                                place and supplies it with the necessary regelialia. It is a
+                                                paradisematic
+                                                country, in which roasted parts of sentences fly into your mouth.</p>
+                                            <div class="peoplePresentation__author">
+                                                — <a href="#">Brett Morgan</a><span> Founder of Wordpress</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="peoplePresentation__person">
+                                        <div class="peoplePresentation__img-block">
+                                            <img src="images/persons/person_2.jpg" alt="person"
+                                                class="peoplePresentation__img">
+                                        </div>
+                                        <div class="peoplePresentation__info">
+                                            <div class="peoplePresentation__time">08: - 10:00</div>
+                                            <div class="peoplePresentation__title">Introduction to Wordpress 5.0</div>
+                                            <p class="peoplePresentation__text">A small river named Duden flows by their
+                                                place and supplies it with the necessary regelialia. It is a
+                                                paradisematic
+                                                country, in which roasted parts of sentences fly into your mouth.</p>
+                                            <div class="peoplePresentation__author">
+                                                — <a href="#">Brett Morgan</a><span> Founder of Wordpress</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="peoplePresentation__person">
+                                        <div class="peoplePresentation__img-block">
+                                            <img src="images/persons/person_1.jpg" alt="person"
+                                                class="peoplePresentation__img">
+                                        </div>
+                                        <div class="peoplePresentation__info">
+                                            <div class="peoplePresentation__time">08: - 10:00</div>
+                                            <div class="peoplePresentation__title">Introduction to Wordpress 5.0</div>
+                                            <p class="peoplePresentation__text">A small river named Duden flows by their
+                                                place and supplies it with the necessary regelialia. It is a
+                                                paradisematic
+                                                country, in which roasted parts of sentences fly into your mouth.</p>
+                                            <div class="peoplePresentation__author">
+                                                — <a href="#">Brett Morgan</a><span> Founder of Wordpress</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide pageClients section" id="pageClients">
+                <h2 class="pageClients__title" data-swiper-parallax="600">Happy <span>Clients</span></h2>
+                <div class="container">
+                    <div class="pageClients__clients clients">
+                        <div class="swiper-wrapper clients-wrap">
+                            <div class="swiper-slide">
+                                <div class="container">
+                                    <div class="clients__inner">
+                                        <div class="clients__img-block">
+                                            <img src="images/persons/person_3.jpg" alt="person" class="clients__img">
+                                        </div>
+                                        <div class="clients__info">
+                                            <p class="clients__text">
+                                                Far far away, behind the word mountains, far from the countries Vokalia
+                                                and
+                                                Consonantia, there live the blind texts.
+                                            </p>
+                                            <div class="clients__person">
+                                                Roger Scott
+                                            </div>
+                                            <div class="clients__profession">
+                                                System Analyst
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="container">
+                                    <div class="clients__inner">
+                                        <div class="clients__img-block">
+                                            <img src="images/persons/person_2.jpg" alt="person" class="clients__img">
+                                        </div>
+                                        <div class="clients__info">
+                                            <p class="clients__text">
+                                                Far far away, behind the word mountains, far from the countries Vokalia
+                                                and
+                                                Consonantia, there live the blind texts.
+                                            </p>
+                                            <div class="clients__person">
+                                                Roger Scott
+                                            </div>
+                                            <div class="clients__profession">
+                                                Marketing Manager
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="container">
+                                    <div class="clients__inner">
+                                        <div class="clients__img-block">
+                                            <img src="images/persons/person_2.jpg" alt="person" class="clients__img">
+                                        </div>
+                                        <div class="clients__info">
+                                            <p class="clients__text">
+                                                Far far away, behind the word mountains, far from the countries Vokalia
+                                                and
+                                                Consonantia, there live the blind texts.
+                                            </p>
+                                            <div class="clients__person">
+                                                Roger Scott
+                                            </div>
+                                            <div class="clients__profession">
+                                                Interface Designer
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="container">
+                                    <div class="clients__inner">
+                                        <div class="clients__img-block">
+                                            <img src="images/persons/person_1.jpg" alt="person" class="clients__img">
+                                        </div>
+                                        <div class="clients__info">
+                                            <p class="clients__text">
+                                                Far far away, behind the word mountains, far from the countries Vokalia
+                                                and
+                                                Consonantia, there live the blind texts.
+                                            </p>
+                                            <div class="clients__person">
+                                                Roger Scott
+                                            </div>
+                                            <div class="clients__profession">
+                                                UI Designer
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="container">
+                                    <div class="clients__inner">
+                                        <div class="clients__img-block">
+                                            <img src="images/persons/person_1.jpg" alt="person" class="clients__img">
+                                        </div>
+                                        <div class="clients__info">
+                                            <p class="clients__text">
+                                                Far far away, behind the word mountains, far from the countries Vokalia
+                                                and
+                                                Consonantia, there live the blind texts.
+                                            </p>
+                                            <div class="clients__person">
+                                                Roger Scott
+                                            </div>
+                                            <div class="clients__profession">
+                                                Web Developer
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="container">
+                                    <div class="clients__inner">
+                                        <div class="clients__img-block">
+                                            <img src="images/persons/person_2.jpg" alt="person" class="clients__img">
+                                        </div>
+                                        <div class="clients__info">
+                                            <p class="clients__text">
+                                                Far far away, behind the word mountains, far from the countries Vokalia
+                                                and
+                                                Consonantia, there live the blind texts.
+                                            </p>
+                                            <div class="clients__person">
+                                                Roger Scott
+                                            </div>
+                                            <div class="clients__profession">
+                                                System Analyst
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="container">
+                                    <div class="clients__inner">
+                                        <div class="clients__img-block">
+                                            <img src="images/persons/person_3.jpg" alt="person" class="clients__img">
+                                        </div>
+                                        <div class="clients__info">
+                                            <p class="clients__text">
+                                                Far far away, behind the word mountains, far from the countries Vokalia
+                                                and
+                                                Consonantia, there live the blind texts.
+                                            </p>
+                                            <div class="clients__person">
+                                                Roger Scott
+                                            </div>
+                                            <div class="clients__profession">
+                                                Marketing Manager
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pagination"></div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-slide pageContacts section" id="pageContacts">
+                <div class="pageContacts__gallery">
+                    <div class="pageContacts__img">
+                        <img class="pageContacts__img-photo" src="images/contacts/contacts_1.jpg" alt="imageContacts4">
+                    </div>
+                    <div class="pageContacts__img">
+                        <img class="pageContacts__img-photo" src="images/contacts/contacts_2.jpg" alt="imageContacts4">
+                    </div>
+                    <div class="pageContacts__img">
+                        <img class="pageContacts__img-photo" src="images/contacts/contacts_3.jpg" alt="imageContacts4">
+                    </div>
+                    <div class="pageContacts__img">
+                        <img class="pageContacts__img-photo" src="images/contacts/contacts_4.jpg" alt="imageContacts4">
+                    </div>
+                </div>
+                <div class="pageContacts__contacts">
+                    <h2 class="pageContacts__title">Subcribe to our Newsletter</h2>
+                    <p class="pageContacts__text">Far far away, behind the word mountains, far from the countries
+                        Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+                    <div class="pageContacts__email">
+                        <form action="" class="pageContacts__form">
+                            <input type="email" class="pageContacts__input" placeholder="Enter email address">
+                            <button type="submit" class="pageContacts__btn">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+
+    <!-- swiper js -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <!-- main js file -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
