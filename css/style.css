@@ -303,8 +303,7 @@ body {
 }
 
 .pageAbout__subtitle {
-  margin-bottom: 45px;
-  text-indent: 30px;
+  margin-bottom: 15px;
   text-align: center;
 }
 
@@ -320,7 +319,6 @@ body {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  overflow-x: hidden;
 }
 
 .pageAbout__item {
@@ -330,7 +328,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 25px 0;
+  padding: 6px 0;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -342,9 +340,12 @@ body {
       -ms-flex-align: center;
           align-items: center;
   background-color: #fff;
-  margin-bottom: 37px;
   -webkit-box-shadow: 1px 1px 1px 3px #8080802b;
           box-shadow: 1px 1px 1px 3px #8080802b;
+}
+
+.pageAbout__item:nth-child(-n+2) {
+  margin-bottom: 20px;
 }
 
 .pageAbout__icon {
@@ -384,7 +385,7 @@ body {
 
 .pageSpeakers__speakers {
   width: 100%;
-  height: calc(100vh - 218px);
+  height: calc(100vh - 240px);
   overflow-x: hidden;
 }
 
@@ -425,7 +426,7 @@ body {
 }
 
 .pageSpeakers__img {
-  width: 100%;
+  width: 90%;
   min-height: 200px;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
@@ -449,7 +450,7 @@ body {
 
 .pageSchedule__title {
   font-size: 40px;
-  margin-bottom: 90px;
+  margin-bottom: 30px;
   font-weight: 300;
   text-align: center;
 }
@@ -473,7 +474,7 @@ body {
 }
 
 .pageSchedule__people {
-  height: calc(100vh - 311px);
+  height: calc(100vh - 265px);
   -webkit-box-flex: 1;
       -ms-flex: 1 0 auto;
           flex: 1 0 auto;
@@ -488,7 +489,7 @@ body {
   width: 100%;
   min-height: 70px;
   cursor: pointer;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 
 .presentation__day {
@@ -581,7 +582,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 -8px;
   margin-bottom: 15px;
   background: #fff;
   padding: 10px 5px 25px;
@@ -912,7 +912,12 @@ body {
   }
   .pageAbout__item {
     padding: 8px 0;
-    margin-bottom: 25px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 48%;
+            flex: 0 1 48%;
+  }
+  .pageAbout__item:nth-child(-n+2) {
+    margin-bottom: 16px;
   }
 }
 
@@ -1116,11 +1121,16 @@ body {
   }
   .pageAbout__list {
     height: calc(100vh - 210px);
+    overflow-y: scroll;
+  }
+  .pageAbout__item:nth-child(-n+2) {
+    margin-bottom: none;
   }
   .pageAbout__item {
     -webkit-box-flex: 1;
         -ms-flex: 1 0 100%;
             flex: 1 0 100%;
+    margin-bottom: 16px;
   }
 }
 
